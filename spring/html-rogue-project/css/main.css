@@ -1,0 +1,124 @@
+/***** BASE STYLES *****/
+
+body{
+    font-family:'Montserrat', sans-serif;;
+    color: #2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width{
+    width: 600px;
+    float:left;
+    
+}
+
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    color: #77a466;
+    font-weight: 700;
+    font-family: "Montserrat" bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+h1 span {
+    color:black;
+    font: 'Montserrat', sans-serif;
+}
+
+nav{
+    float: right;
+    padding-bottom: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: .5cm;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #77a466;
+    font-family: "Montserrat";
+    display: block;
+}
+
+#hero-image {
+    width: 1200px;
+    border:2in;
+}
+
+
+/***** ABOUT SECTION *****/
+
+.full-width-about{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.full-width-about h2{
+    font-size: 18px;
+    line-height: 23px;
+    color: #77a466;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.full-width-about p{
+    width: 1176px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+/***** BOTTOM SECTION *****/
+
+
+#bottom .full-width{
+    width:1200px;
+    padding: 50px;
+}
+
+#bottom .third-width{
+    width: 400px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+} 
+
+footer span {
+    font-size: 16px;
+    line-height: 23px;
+    color: #77a466;
+    font-weight: 400;
+    font-family: "Galada";
+}
